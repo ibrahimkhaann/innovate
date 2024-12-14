@@ -1,0 +1,751 @@
+ /* all common css start   */
+ * {
+     margin: 0;
+     padding: 0;
+     outline: 0;
+     box-sizing: border-box;
+ }
+
+ a,
+ a:hover {
+     text-decoration: none;
+     display: inline-block;
+ }
+
+ ul,
+ ol {
+     list-style-type: none;
+     padding-left: 0;
+     padding-top: 0;
+ }
+
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ p {
+     margin: 0;
+     padding: 0;
+     line-height: 0.8;
+ }
+
+ /* all common css end   */
+
+ /* navbar part start  */
+ .nav-item {
+     padding: 0 20px;
+ }
+
+ .contactbtn a {
+     padding: 15px 20px;
+     background-color: #FF5538;
+     font-size: 18px;
+     font-family: "Nunito", sans-serif;
+     font-weight: 600;
+     color: white;
+     border-radius: 15px;
+     transition: .4s;
+ }
+
+ .nav-link {
+     transition: .4s;
+     font-family: "Open Sans", sans-serif;
+     color: #29313D;
+     font-size: 18px;
+     font-weight: 600;
+ }
+
+ .nav-link:hover {
+     color: #FF5538;
+
+ }
+
+ .navbar {
+     position: fixed;
+     padding-top: 20px;
+     width: 100%;
+ }
+
+ .contactbtn a:hover {
+     color: #FF5538;
+     background-color: white;
+ }
+
+ /* stiky header part start */
+ .stiky-header {
+     background: teal;
+     animation: ibrahim 1s;
+     z-index: 11111;
+ }
+
+ @keyframes ibrahim {
+     from {
+         top: -300px;
+     }
+
+     to {
+         top: 0;
+     }
+ }
+
+ /* stiky header part end */
+
+ /* back to top btn start */
+ .back-to-top i {
+     font-size: 40px;
+     color: red;
+     right: 20px;
+     bottom: 20px;
+     position: fixed;
+ }
+
+ /* back to top btn END */
+
+
+
+ /* top header Part start  */
+ #topHeaderPart {
+     padding-bottom: 0;
+ }
+
+ .topheaderImg {
+     background: url(images/Header.png);
+     top: 0;
+     left: 0;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+ }
+
+ .topHeaderOverly {
+     padding: 287px 0;
+     height: 100%;
+     width: 100%;
+     background-color: hsla(6, 100%, 92%, 0.3);
+
+ }
+
+ .headerWrite h1 {
+     color: #29313D;
+     font-size: 64px;
+     font-weight: 700;
+     font-family: "Open Sans", sans-serif;
+     padding: 0 330px;
+     line-height: 70px;
+ }
+
+ .headerWrite p {
+     color: #29313D;
+     font-size: 18px;
+     font-weight: 400;
+     font-family: "Nunito", sans-serif;
+     line-height: 30px;
+     padding: 40px 388px 0;
+ }
+
+ .headerflex {
+     display: flex;
+     padding-top: 50px;
+     padding-left: 510px;
+ }
+
+ .topbtn {
+     padding-left: 15px;
+ }
+
+ .topbtn a {
+     padding-left: 15px;
+     padding: 15px 20px;
+     background-color: transparent;
+     font-size: 18px;
+     font-family: "Nunito", sans-serif;
+     font-weight: 600;
+     color: #FF5538;
+     border-radius: 15px;
+     transition: .4s;
+     border: 1px solid #FF5538;
+ }
+
+ .topHeaderPositiion {
+     top: -160px;
+     position: relative;
+ }
+
+ .topPosition {
+     padding: 30px 20px;
+     background-color: white;
+ }
+
+ .topPosition h3 {
+     color: #29313D;
+     font-size: 24px;
+     font-weight: 600;
+     font-family: "Open Sans", sans-serif;
+     padding-top: 15px;
+ }
+
+ .topPosition p {
+     color: #29313D;
+     font-size: 18px;
+     font-weight: 400;
+     font-family: "Nunito", sans-serif;
+     padding-top: 15px;
+     line-height: 30px;
+ }
+
+ .topPosition img {
+     padding-bottom: 30px;
+ }
+
+ #headerPart {
+     padding-bottom: 0px;
+ }
+
+ /* digital part start  */
+
+ #digitalLigePart {
+     padding-bottom: 0px;
+
+ }
+
+ .digitalwrite {
+     top: -20px;
+
+ }
+
+ .digitalwrite h3 {
+     font-size: 20px;
+     font-weight: 500;
+     color: #FF5538;
+     font-family: "Poppins", sans-serif;
+ }
+
+ .digitalwrite h1 {
+     font-size: 48px;
+     font-weight: 600;
+     color: #29313D;
+     font-family: "Poppins", sans-serif;
+     padding-top: 20px;
+ }
+
+ .digitalwrite img {
+     padding-left: 280px;
+ }
+
+ .digitalposition {
+     width: 60%;
+ }
+
+ .digitalflex {
+     width: 100%;
+     display: flex;
+     position: relative;
+     top: -110px;
+ }
+
+ .digitalflex2 {
+     width: 40%;
+ }
+
+ .digitalitem {
+     padding: 100px 150px;
+     background-color: #FBF3F0;
+ }
+
+ .digitalitem h2 {
+     font-size: 36px;
+     font-weight: 600;
+     color: #29313D;
+     font-family: "Poppins", sans-serif;
+     padding-right: 287px;
+     line-height: 45px;
+     text-transform: capitalize;
+
+ }
+
+ .digitalitem p {
+     font-size: 18px;
+     font-weight: 400;
+     color: #29313D;
+     font-family: "Nunito", sans-serif;
+     padding-right: 363px;
+     line-height: 30px;
+     text-transform: capitalize;
+     padding-top: 20px;
+
+ }
+
+ .digitalitem img {
+     position: absolute;
+     padding-left: 700px;
+     top: 297px;
+ }
+
+ .digitalflex5 {
+     padding: 240px 430px;
+     background-color: #C4C4C4;
+     position: absolute;
+     z-index: 1111;
+
+ }
+
+ .digitalitem a {
+     font-size: 18px;
+     font-weight: 600;
+     color: white;
+     font-family: "Nunito", sans-serif;
+     padding: 20px 30px;
+     border-radius: 20px;
+     background-color: #FF5538;
+     margin-top: 40px;
+     transition: .4s;
+ }
+
+ .digitalitem a:hover {
+     color: #FF5538;
+     background-color: white;
+ }
+
+ .digitalflex2 {
+     padding-top: 44px;
+
+ }
+
+ .digitalflex2 img {
+     position: absolute;
+     left: 20px;
+     top: 335px;
+ }
+
+ /* digital part start  */
+
+ /* solution part start */
+ #solutionPart {
+     padding-bottom: 100px;
+ }
+
+ .solutionWrite h3 {
+     font-size: 20px;
+     font-weight: 500;
+     color: #FF5538;
+     font-family: "Poppins", sans-serif;
+     text-transform: capitalize;
+ }
+
+ .solutionflex {
+     display: flex;
+     justify-content: space-between;
+     padding-top: 20px;
+     width: 100%;
+ }
+
+ .solutionflex1 {
+     width: 80%;
+ }
+
+ .solutionflex1 h1 {
+     color: #29313D;
+     font-size: 48px;
+     font-weight: 600;
+     font-family: "Poppins", sans-serif;
+     text-transform: capitalize;
+     padding-right: 373px;
+     line-height: 60px;
+ }
+
+ .solutionflex2 {
+     padding-top: 50px;
+ }
+
+ .solutionflex2 a {
+     padding: 10px 15px;
+     background-color: white;
+     border: 1px solid #FF5538;
+     color: #FF5538;
+     border-radius: 15px;
+     font-weight: 600;
+     font-family: "Nunito", sans-serif;
+     font-size: 18px;
+ }
+
+ .solutionProdct {
+     padding-top: 300px;
+     width: 100%;
+     background-color: #C4C4C4;
+     margin-top: 50px;
+ }
+
+ .solutionitem {
+     padding: 30px 0;
+     width: 100%;
+     background-color: #fff;
+ }
+
+ .solutionitem h3 {
+     font-size: 28px;
+     font-weight: 600;
+     color: #29313D;
+     font-family: "Poppins", sans-serif;
+     padding-left: 20px;
+ }
+
+ .solutionitem a {
+     color: #FF5538;
+     font-weight: 500;
+     font-family: "Nunito", sans-serif;
+     font-size: 18px;
+     padding-top: 10px;
+     padding-left: 20px;
+ }
+
+ .rowmain:hover {
+     -webkit-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.75);
+     -moz-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.75);
+     box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.75);
+ }
+
+ .rowmain {
+     transition: .4s;
+ }
+
+ /* solution part end   */
+
+ /* service part start  */
+ #servicePart {
+     padding-bottom: 0px;
+ }
+
+ .serviceimg {
+     background: url(../css/images/Elements.png);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+ }
+
+ .serviceOverly {
+     padding: 120px 0;
+     top: 0;
+     left: 0;
+     background-color: hsla(12, 56%, 98%, 0.548);
+ }
+
+ .serviceProduct {
+     padding: 80px 0;
+     width: 100%;
+     background-color: white;
+ }
+
+ .serviceProduct h1 {
+     font-size: 40px;
+     font-weight: 600;
+     color: #29313D;
+     font-family: "Poppins", sans-serif;
+ }
+
+ .serviceProduct h3 {
+     font-size: 18px;
+     font-weight: 400;
+     color: #29313D;
+     font-family: "Nunito", sans-serif;
+     padding-top: 10px;
+ }
+
+ .serviceWritePart h1 {
+     font-size: 48px;
+     font-weight: 600;
+     color: #29313D;
+     font-family: "Poppins", sans-serif;
+     line-height: 60px;
+     padding-right: 165px;
+     text-transform: capitalize;
+ }
+
+ .serviceWritePart p {
+     font-size: 16px;
+     font-weight: 400;
+     color: #29313D;
+     font-family: "Nunito", sans-serif;
+     padding: 15px 197px 15px 0;
+     text-transform: capitalize;
+     line-height: 30px;
+ }
+
+ .serviceWritePart a {
+     padding: 20px 35px;
+     background-color: #FF5538;
+     font-size: 18px;
+     font-weight: 600;
+     color: #fff;
+     font-family: "Nunito", sans-serif;
+     border-radius: 15px;
+     margin-top: 30px;
+     transition: .4s;
+ }
+
+ .serviceWritePart a:hover {
+     color: #FF5538;
+     background-color: #fff;
+ }
+
+ .organizitionWrite {
+     padding: 130px 0 80px;
+ }
+
+ .organizitionWrite h1 {
+     font-size: 48px;
+     font-weight: 600;
+     color: #29313D;
+     font-family: "Poppins", sans-serif;
+     padding: 0 235px;
+     text-transform: capitalize;
+     line-height: 60px;
+ }
+
+ .imgpadding img {
+     padding-bottom: 100px;
+ }
+
+ /* service part end  */
+
+ /* cstomer part start  */
+ #customerPart {
+     padding-bottom: 0px;
+ }
+
+ .customerpadding {
+     padding: 120px 0;
+     background-color: #FDF9F8;
+ }
+
+ .customerWritePart {
+     padding-top: 15px;
+ }
+
+ .customerWritePart h1 {
+     font-size: 48px;
+     font-weight: 600;
+     color: #29313D;
+     font-family: "Poppins", sans-serif;
+     padding-bottom: 80px;
+ }
+
+ .customercolor {
+     padding: 20px 20px 20px 0;
+
+ }
+
+ .customerColorPadding {
+     background-color: #C4C4C4;
+     border-radius: 20px;
+     padding: 50px;
+ }
+
+ .customerComment {
+     padding-top: 50px;
+ }
+
+ .customerComment p {
+     font-size: 20px;
+     font-weight: 400;
+     color: #29313D;
+     font-family: "Nunito", sans-serif;
+     text-transform: capitalize;
+     line-height: 35px;
+ }
+
+
+
+ .customerFlex {
+     display: flex;
+
+ }
+
+ .customerFlex1 h2 {
+     font-size: 36px;
+     font-weight: 600;
+     color: #29313D;
+     font-family: "Poppins", sans-serif;
+     padding-top: 81px;
+ }
+
+ .customerFlex2 {
+     padding-left: 30px;
+     padding-top: 70px;
+ }
+
+ .customerFlex2 i {
+     padding: 20px 23px;
+     background-color: #FFDDD7;
+     border-radius: 10px;
+     transition: .4s;
+ }
+
+ .customertflex4 {
+     padding-left: 20px;
+ }
+
+ .customerFlex2 {
+     display: flex;
+ }
+
+ .customerFlex:hover .customerFlex2 i {
+     color: #FF5538;
+     background-color: #FDF9F8;
+ }
+
+ .customerFlex:hover .customerFlex4 i {
+     color: #FF5538;
+     background-color: #FDF9F8;
+ }
+
+ .customertflex4 i {
+     padding: 20px 23px;
+     background-color: #FF5538;
+     border-radius: 10px;
+     transition: .4s;
+ }
+
+ .colpadding {
+     padding: 0 50px 0 0;
+
+ }
+
+ .customercolorpadding {
+     background-color: #C4C4C4;
+     padding: 310px 0;
+     border-radius: 35px;
+ }
+
+ /* cstomer part end  */
+
+ /* project part start  */
+ #projectPart {
+     padding-bottom: 0px;
+ }
+
+ .projectcolor {
+     background: url(../css/images/Mask\ Group.png);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+ }
+
+ .projectOverly {
+     padding: 100px 0;
+     background-color: hsla(16, 100%, 89%, 0.6);
+     top: 0;
+     left: 0;
+ }
+
+ .projectWrite h5 {
+     font-size: 20px;
+     font-weight: 400;
+     color: #29313D;
+     font-family: "Poppins", sans-serif;
+
+ }
+
+ .projectWrite h3 {
+     font-size: 48px;
+     font-weight: 600;
+     color: #29313D;
+     font-family: "Poppins", sans-serif;
+     text-transform: capitalize;
+     padding-top: 20px;
+ }
+
+ .shopbtn a {
+     padding: 20px 35px;
+     background-color: #FF5538;
+     color: #fff;
+     border-radius: 15px;
+     transition: .4s;
+
+ }
+
+ .shopbtn a:hover {
+     color: #FF5538;
+     background-color: #fff;
+ }
+
+ .projectbottom {
+     height: 1px;
+     width: 100%;
+     background-color: #C4C4C4;
+     margin-top: 70px;
+ }
+
+ .projectpara {
+     padding-top: 20px;
+ }
+
+ .projectpara p {
+     font-size: 20px;
+     font-weight: 400;
+     color: #29313D;
+     font-family: "Nunito", sans-serif;
+     text-transform: capitalize;
+     line-height: 35px;
+ }
+
+
+ /* project part end  */
+
+/* footer part start  */
+#footerPart{
+    padding:140px 0 60px;
+    background-color:#FFFFFF
+}
+.footeritem p{
+    margin-top: 50px;
+    font-size: 18px;
+     font-weight: 400;
+     color: #29313D;
+     font-family: "Nunito", sans-serif;
+     text-transform: capitalize;
+     padding-right: 79px;
+     line-height: 30px;
+}
+.footermenu{
+    margin-left: 20px;
+}
+
+
+.footermenu h4{
+    font-size: 24px;
+    font-weight: 600;
+    color: #29313D;
+    font-family: "Poppins", sans-serif;
+}
+.footermenuitem{
+    margin-top: 30px;
+}
+.footermenuitem ul li a{
+    padding-top: 20px;
+    color: #29313D;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Nunito", sans-serif;
+    transition: .4s;
+
+}
+.footermenuitem ul li a:hover{
+    color: #FF5538;
+}
+.lastWrite{
+    padding-top: 100px;
+}
+.lastWrite h4{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif;
+}
+
+
+/* footer part end/
+
+
+
+
